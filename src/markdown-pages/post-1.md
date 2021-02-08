@@ -2,10 +2,12 @@
 slug: "/blog/my-first-post"
 output: 
   html_document:
-     css: style.css
+     css: font-awesome-4.4.0/css/font-awesome.css
      self_contained: no
 ---
-<link href="../styles/style.css" rel="stylesheet"></link>
+
+<i class="fa fa-renren fa-5x"></i>
+<!-- <link href="../styles/style.css" rel="stylesheet"></link> -->
 Hello World! <br>
 I'm champion
 
