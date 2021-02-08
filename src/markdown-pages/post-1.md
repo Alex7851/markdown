@@ -1,14 +1,16 @@
 ---
 slug: "/blog/my-first-post"
-date: "2019-05-04"
-title: "My first blog post"
+output: 
+  html_document:
+     css: style.css
+     self_contained: no
 ---
-
+<link href="../styles/style.css" rel="stylesheet"></link>
 Hello World! <br>
 I'm champion
 
-
-<!-- ## Окружение 
+<div style="leftblock">
+## Окружение 
 
 
 Ubuntu 19.04  
@@ -17,7 +19,7 @@ Firefox (72.0.1), Yandex br. (19.12.3.332 beta), Opera (66.0.3515.103), Google C
 Сборка/последний коммит: 
 
 
-
+</div>
 ## Предусловия
 
 
@@ -44,4 +46,4 @@ Firefox (72.0.1), Yandex br. (19.12.3.332 beta), Opera (66.0.3515.103), Google C
 ***Фото***:  
 
 
-![image](/uploads/89ab5d813cc20d656c3d1a64bcf724c9/image.png) -->
+![image](/uploads/89ab5d813cc20d656c3d1a64bcf724c9/image.png)

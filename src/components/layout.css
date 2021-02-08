@@ -71,6 +71,9 @@ mark {
 small {
   font-size: 80%;
 }
+footer{
+  bottom: 0px
+}
 sub,
 sup {
   font-size: 75%;
@@ -208,6 +211,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  height: 100vh;
 }
 img {
   max-width: 100%;
