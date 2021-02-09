@@ -3,11 +3,9 @@ import { Link, StaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 
-
-
-
     export default () => (
       <StaticQuery
+
         query={graphql`
           {
             allSitePage(filter: {id:{regex:"/blog/"}}) {

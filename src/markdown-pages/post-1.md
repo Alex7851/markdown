@@ -1,18 +1,13 @@
 ---
 slug: "/blog/my-first-post"
-output: 
-  html_document:
-     css: font-awesome-4.4.0/css/font-awesome.css
-     self_contained: no
+
 ---
 
-<i class="fa fa-renren fa-5x"></i>
 <!-- <link href="../styles/style.css" rel="stylesheet"></link> -->
 Hello World! <br>
 I'm champion
 
-<div style="leftblock">
-## Окружение 
+# Окружение 
 
 
 Ubuntu 19.04  
@@ -21,13 +16,12 @@ Firefox (72.0.1), Yandex br. (19.12.3.332 beta), Opera (66.0.3515.103), Google C
 Сборка/последний коммит: 
 
 
-</div>
 ## Предусловия
 
 
 
 
-## Шаги
+# Шаги
 
 1. Перейти к форме авторизации в сервисе
 1. Выбрать в виджете авторизации провайдера "Мегафон"

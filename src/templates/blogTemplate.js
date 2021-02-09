@@ -1,12 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
-
+import './styles.css'
 export const pageQuery = graphql`
   query($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         slug
+        title
       }
     }
   }
@@ -17,11 +18,13 @@ export default function Template({
       const { markdownRemark } = data // data.markdownRemark holds our post data
       const { frontmatter, html } = markdownRemark
       return (
-        <div 
+        <div> {frontmatter.title}
+          <div 
               className="blog-post-2content"
               dangerouslySetInnerHTML={{ __html: html }}
             >
           </div>
+        </div>
       ) 
     }
 

@@ -35,5 +35,22 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`,
       },
     },
+    {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        {
+          resolve: `gatsby-remark-classes`,
+          options: {
+            classMap: {
+              "heading[depth=1]": "mystyle1",
+              "heading[depth=2]": "mystyle2",
+              "paragraph": "text-base"
+            }
+          }
+        }
+      ]
+    }
+  },
   ],
 }
