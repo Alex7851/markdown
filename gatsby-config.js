@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `gatsby-example-using-markdown-pages`,
+    title: `Markdown header`,
     description: `Start your new blog using markdown files`,
     author: `@gatsbyjs`,
   },
