@@ -7,7 +7,7 @@ slug: "/blog/my-first-post"
 Hello World! <br>
 I'm champion
 
-# Окружение 
+# Окружениее
 
 
 Ubuntu 19.04  
